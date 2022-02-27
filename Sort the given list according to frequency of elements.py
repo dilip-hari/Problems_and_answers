@@ -16,6 +16,8 @@ output:[-1,-1,0,0,1,1,2,2,4,4]
 Example input3:
 
 input:[4,6,8,2,5,7,9]
+
+output:[2,4,5,6,7,8,9]
 '''
 def frequency(n):
     a=[]
