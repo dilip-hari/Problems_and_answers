@@ -1,3 +1,23 @@
+'''
+Vowel is palindrome or not in given string.
+
+input1:
+good
+
+output1:
+vowel is palindrome
+
+explanation:
+vowels in the string is 'oo'
+it is palindrome and it will print 'vowel is palindrome'
+
+input2:
+goode
+
+output2:
+vowel is not a palindrome
+
+'''
 s=input()
 a=[]
 for i in range(len(s)):
