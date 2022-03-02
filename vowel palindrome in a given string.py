@@ -25,7 +25,7 @@ for i in range(len(s)):
         a.append(s[i])
 i=0
 while i<len(a)//2:
-    if(a[i]!=a[(len(a)-1)-i]):
+    if(a[i]!=a[len(a)-1-i]):
         break
     i=i+1
 if len(a)==0:
