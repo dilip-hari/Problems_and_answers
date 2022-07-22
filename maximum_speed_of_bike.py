@@ -49,20 +49,12 @@ Output:
 Explanation:
 
 The initial speed of the bike is 40 units per hour.
-
-When 20 is encountered, the speed is
-
-decreased to 20 units per hour. When 10 is encountered, the speed is
-
-increased to 30 units per hour. When 10 is encountered, the speed is
-
-increased to 40 units per hour. When 10 is encountered, the speed is
-
-increased to 50 units per hour. When 20 is encountered, the speed is
-
-decreased to 30 units per hour. The maximum speed achieved during
-
-the race is 50 units per hour.
+When 20 is encountered, the speed is decreased to 20 units per hour. 
+When 10 is encountered, the speed is increased to 30 units per hour. 
+When 10 is encountered, the speed is increased to 40 units per hour. 
+When 10 is encountered, the speed is increased to 50 units per hour. 
+When 20 is encountered, the speed is decreased to 30 units per hour. 
+The maximum speed achieved during the race is 50 units per hour.
 '''
 n=input().split()
 s=input().split()
