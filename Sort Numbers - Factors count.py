@@ -13,8 +13,7 @@ The second line will contain N positive integers separated by a space.
 
 Output Format:
 
-The first line will contain the N positive integers LAM (separated by a space) ordered by their factor
-count.
+The first line will contain the N positive integers(separated by a space) ordered by their factor count.
 
 Boundary Conditions.
 
