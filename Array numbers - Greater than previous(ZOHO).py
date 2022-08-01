@@ -45,12 +45,10 @@ Output:
 1 2 5 7 19 20 45'''
 n=int(input())
 s=input().split()
-a=[]
-for i in s:
-    a.append(int(i))
+a=[int(i) for i in s]
 print(a[0],end=' ')
-i=1
-while i<n:
-    if a[i]>a[i-1]:
+max=a[0]
+for i in range(1,n):
+    if max<a[i]:
+        max=a[i]
         print(a[i],end=' ')
-    i=i+1
